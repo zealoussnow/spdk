@@ -1,3 +1,7 @@
 [Malloc]
   NumberOfLuns 1
-  LunSizeInMB 128
+  LunSizeInMB 1024
+[AIO]
+  AIO /dev/sdc AIO0
+[Ceph]
+  Ceph rbd foo 512 Ceph0
